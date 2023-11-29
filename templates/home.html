@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikey's Recipes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #536980;
+            background-image: url("{{url_for('static', filename='american-food.jpg')}}");
+            color: #fff;
+            padding: 10px;
+            text-align: left;
+            max-width: 1024;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #f4f4f4;
+        }
+
+        h3 {
+            color: #f4f4f4;
+        }
+
+        p {
+            color: #bbbbbb;
+        }
+
+        b {
+            color: #f4f4f4;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mikey's Recipes</h1>
+    </header>
+
+    <ul>
+        <button type=button href="create.html">Create a New Recipe</button>
+        <button type=button href="browse.html">Browse Recipes</button>
+    </ul>
+
+    <section>
+        <h2>Welcome to my recipe hub!</h2>
+        <p>Explore my variety of different mouth-watering recipes, and submit your own recipes to be added!</p>
+            
+
+    </section>
+</body>
+</html>
